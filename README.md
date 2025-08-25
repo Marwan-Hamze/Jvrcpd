@@ -8,10 +8,12 @@ The controller works as intended with mc_mujoco, however, with mc_openrtm and ch
 
 To Install:
 
+```
 $ cd jvrcpd
 $ mkdir build && cd build
 $ cmake ..
 $ make install
+```
 
 To run, simply add the controller in the mc_rtc configuration file (`Enabled: Jvrcpd`), then run either:
 
